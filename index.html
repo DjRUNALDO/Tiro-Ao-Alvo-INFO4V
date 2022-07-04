@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>Tiro Ao Alvo - INFO4V</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+
+	<body>
+		<!-- Divisão principal -->
+		<div class="game">
+			<div>
+				<!-- Cenário -->
+				<img alt="Cenário" src="img/Map001.jpg" id="target" class="map" onclick="missShot()">
+				
+				<!-- Controles -->
+				<div class="controls">
+					<input type="button" value="Começar Jogo" class="button" onclick="startTime()">
+					<input type="button" value="Encerrar Jogo" class="button" onclick="resetTime()">
+					<input type="button" value="PAUSADO" id="crono" class="chrono">
+				</div>
+			</div>
+			
+			<!-- Placar -->
+			<div>
+				<ul id="list"></ul>
+			</div>
+		</div>
+		
+		<pre>Jogo produzido por Maria Clara, Maria Nicássia & Naalliel Medeiros.</pre>
+		
+		<img alt="Alvo" src="img/Target001.png" class="target" onclick="hitShot()">
+	</body>
+</html>

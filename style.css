@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+}
+
+.game{
+	display: flex;
+}
+
+.controls{
+	display: block;
+}
+
+.chrono{
+	width: 376px;
+}
+
+.button{
+	width: 128px;
+}
+
+.map{
+	cursor: url("img/Cursor001.png"), default;
+	padding: 0px;
+	
+	width:  640px;
+	height: 480px;
+}
+
+.target{
+	cursor: url("img/Cursor001.png"), default;
+	position: absolute;
+	
+	top: 0;
+	left: 0;
+	
+	width: 64px;
+	height: 64px;
+	
+	
+}
